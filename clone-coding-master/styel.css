@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+}
+#header{
+    background-image: url(./img/pattern-size1.svg);
+    background-position: top left, center center;
+    background-attachment: fixed, fixed;
+    background-size: 100%, cover;
+    background-color: #4696e5;
+    /* padding: 4.5em 0 2.5em 0; */
+    height: 100vh;
+    min-height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    text-align: right;
+    margin: -3.5em 4em 0 0;
+}
+.header h1{
+    font-size: 4.5em;
+    margin-bottom: 0.5em;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    
+}
+.header p{
+    font-size: 2em;
+    line-height: 1.35em;
+    color: #d1e5f9;
+    margin: 0 0 1.5em 0;
+}
+.header p a{
+    border-bottom: dotted 1px;
+}
+.header_img{
+    width: 17em;
+}
+.header_img img{
+    width: 100%;
+}
+.header_img::before{
+    display: block;
+    border: solid 2px rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.25);
+    height: 2.5em;
+    border-radius: 1em 1em 0 0;
+    border-bottom: 0;
+    content: '';
+}
+.header_img::after{
+    display: block;
+    border: solid 2px rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.25);
+    height: 3.5em;
+    border-radius: 0 0 1em 1em;
+    border-top: 0;
+    content: '';
+}
+.header_img_border{
+    border-color: rgba(255, 255, 255, 0.25);
+    border: solid 2px rgba(255, 255, 255, 0.25);
+}
+.header_img_border::before{
+    background: rgba(255, 255, 255, 0.25);
+    top: -1.375em;
+    margin-left: -1em;
+    width: 2em;
+    height: 0.25em;
+    border-radius: 0.5em;
+    background: rgba(255, 255, 255, 0.25);
+    content: '';
+    position: absolute;
+    left: 50%;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 16px;
+}
+ul li button{
+    border: none;
+    box-shadow: none;
+    background-color: #ffffff;
+    color: #4696e5 !important;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 28px 0 21.6px;
+    border-radius: 5px;
+    
+}
+.button2{
+    background-color: transparent;
+    color: #ffffff !important;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+}
