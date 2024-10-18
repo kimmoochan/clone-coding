@@ -61,6 +61,7 @@
     border-radius: 0 0 1em 1em;
     border-top: 0;
     content: '';
+    
 }
 .header_img_border{
     border-color: rgba(255, 255, 255, 0.25);
@@ -68,7 +69,7 @@
 }
 .header_img_border::before{
     background: rgba(255, 255, 255, 0.25);
-    top: -1.375em;
+    top: 15.6em;
     margin-left: -1em;
     width: 2em;
     height: 0.25em;
@@ -76,14 +77,27 @@
     background: rgba(255, 255, 255, 0.25);
     content: '';
     position: absolute;
-    left: 50%;
+    left: 62.4%;
+}
+.header_img_border::after{
+    border-color: rgba(255, 255, 255, 0.25);
+    border-color: #e6e6e6;
+    bottom: 15.2em;
+    margin-left: -1em;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    border: solid 2px rgba(255, 255, 255, 0.25);
+    content: '';
+    position: absolute;
+    left: 62.4%;
 }
 
-ul{
+.header_button{
     display: flex;
     justify-content: right;
 }
-ul li{
+.header_button li{
     text-decoration: none;
     list-style: none;
     padding-left: 16px;
@@ -97,10 +111,79 @@ ul li button{
     line-height: 2.95em;
     padding: 0 28px 0 21.6px;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .button2{
     background-color: transparent;
     color: #ffffff !important;
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+}
+#one{
+    background-color: #fbfbfb;
+    color: #999999;
+    padding: 6em 0 3.4em 0;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: solid 2px #eeeeee;
+}
+#one h1{
+    margin-bottom: 37.3333333px;
+}
+#one header::after{
+    content: '';
+    border-bottom: solid 2px #e6e6e6;
+    display: block;
+    width: 4em;
+    margin: 2em auto 0 auto;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 43px;
+    /* text-align: center; */
+}
+.icon li{
+    padding-right: 53px;
+    padding-left: 53px;
+    text-align: center;
+    font-size: 60px;
+}
+.two_main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+.two_img{
+    /* width: 30%; */
+    border-radius: 100%;
+    margin: 0 3em 0 0;
+    /* display: block; */
+    box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
+    border-radius: 6px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 100%;
+    width: 30%;
+}
+.two_img img{
+    display: block;
+    border-radius: 100%;
+    width: 100%;
+}
+.two_main_one{
+    display: flex;
+    width: 1066px;
+    height: 300px;
+}
+#two{
+    padding-top: 96px;
+}
+.two_title{
+    width: 70%;
+    
 }
