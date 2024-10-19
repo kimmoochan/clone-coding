@@ -185,5 +185,116 @@ ul li button{
 }
 .two_title{
     width: 70%;
-    
+    margin-top: 70px;
+    /* left: 50%; */
+    height: 176px;   
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.two_title h3{
+    color: #828282;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.two_title p{
+    color: #999999;
+    line-height: 1.5em;
+    font-size: 21px;
+    letter-spacing: -0.020em;
+}
+.two_img2{
+    /* width: 30%; */
+    border-radius: 100%;
+    margin: 0 0 0 3em;
+    /* display: block; */
+    box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
+    border-radius: 6px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 100%;
+    width: 30%;
+}
+.two_img2 img{
+    display: block;
+    border-radius: 100%;
+    width: 100%;
+}
+.two_title2{
+    text-align: right;
+    width: 70%;
+    margin-top: 70px;
+    /* left: 50%; */
+    height: 176px;   
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.two_title2 h3{
+    color: #828282;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.two_title2 p{
+    color: #999999;
+    line-height: 1.5em;
+    font-size: 21px;
+    letter-spacing: -0.020em;
+}
+.two_main_two{
+    display: flex;
+    margin-top: 64px;
+    padding-top: 64px;
+    border-top: solid 2px #eeeeee;
+    width: 1066px;
+    height: 300px;
+}
+.two_img3{
+    /* width: 30%; */
+    border-radius: 100%;
+    margin: 0 3em 0 0;
+    /* display: block; */
+    box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
+    border-radius: 6px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 100%;
+    width: 30%;
+}
+.two_img3 img{
+    display: block;
+    border-radius: 100%;
+    width: 100%;
+}
+.two_title3{
+    /* text-align: right; */
+    width: 70%;
+    margin-top: 70px;
+    /* left: 50%; */
+    height: 176px;   
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.two_title3 h3{
+    color: #828282;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.two_title3 p{
+    color: #999999;
+    line-height: 1.5em;
+    font-size: 21px;
+    letter-spacing: -0.020em;
+}
+.two_main_three{
+    display: flex;
+    margin-top: 64px;
+    padding-top: 64px;
+    border-top: solid 2px #eeeeee;
+    width: 1066px;
+    height: 300px;
 }
